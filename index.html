@@ -1,35 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- add Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap"
+      rel="stylesheet" />
     <!-- add custom CSS -->
-    <link rel="stylesheet" href="src\style.css">
+    <link rel="stylesheet" href="src\style.css" />
     <title>AI Quote Generator</title>
-</head>
-<body>
-  <!-- header section -->
-  <header>
-    <h1>AI Quote Generator</h1>
-  </header>
-  <!-- main section -->
-  <main>
-    <form>
-      <input type="text" name="quote-topic" id="quote-topic" placeholder="Enter a topic for your quote">
-      <button type="submit">Generate a Quote</button>
-    </form>
-    <div><p>Life is 10% what happens to you</p>
-      <p>and</p>
-      <p>90% how you react to it</p>
-      <p>--Charles R. Swindoll</p>
-    </div>
-  </main>
-    <!-- footer section -->
-    <footer>
+  </head>
+  <body>
+    <div class="project-container">
+      <!-- header section -->
+      <header>
+        <h1>AI Quote Generator</h1>
+      </header>
+      <!-- main section -->
+      <main>
+        <form class="quote-topic-form">
+          <input
+            type="text"
+            class="quote-topic"
+            name="quote-topic"
+            id="quote-topic"
+            placeholder="Enter a topic for your quote" />
+          <button class="generate-quote-btn" type="submit">
+            Generate Quote
+          </button>
+        </form>
+        <div class="quote">
+          Life is 10% what happens to you
+          <br />
+          and
+          <br />
+          90% how you react to it
+          <br />
+          --Charles R. Swindoll
+        </div>
+      </main>
+      <!-- footer section -->
+      <footer>
         AI project coded by
         <a href="https://github.com/roberta-munive" target="_blank">Roberta</a>
         on
-        <a href="https://github.com/roberta-munive/ai_quote_generator" target="_blank"
+        <a
+          href="https://github.com/roberta-munive/ai_quote_generator"
+          target="_blank"
           >GitHub</a
         >
         and
@@ -37,6 +57,7 @@
           >hosted on Netlify</a
         >
       </footer>
+    </div>
     <script src="src\index.js"></script>
-</body>
+  </body>
 </html>
