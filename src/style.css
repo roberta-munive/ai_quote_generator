@@ -16,6 +16,10 @@ h1 {
 
 /* main section */
 
+strong{
+  color: rgb(57, 90, 127, 0.9);
+}
+
 .generate-quote-btn,
 .quote-topic {
   border-radius: 4px;
