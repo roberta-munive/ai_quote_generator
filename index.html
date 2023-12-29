@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- add typewriter plug in -->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <!-- add Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,18 +23,20 @@
       </header>
       <!-- main section -->
       <main>
-        <form class="quote-topic-form">
+        <form class="generate-quote-form" id="generate-quote-form">
           <input
             type="text"
             class="quote-topic"
             name="quote-topic"
             id="quote-topic"
-            placeholder="Enter a topic for your quote" />
+            placeholder="Enter a topic for your quote"
+            required />
+
           <button class="generate-quote-btn" type="submit">
             Generate Quote
           </button>
         </form>
-        <div class="quote">
+        <div class="quote" id="quote">
           Life is 10% what happens to you
           <br />
           and
