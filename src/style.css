@@ -53,9 +53,9 @@ strong {
   background-color: rgb(233, 236, 238);
   border: 2px solid rgb(172, 172, 172);
   border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   margin-bottom: 30px;
   padding: 20px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .generate-quote-btn {
